@@ -1,10 +1,14 @@
 const express = require('express');
 const app = express();
 const data1 = require("./Routes/bollywood")
+const data2 = require("./Routes/Home")
 const data3 = require("./Routes/hollywood")
 
 app.use('/home', data1)
-app.use('/hollywood',data3)
+app.use('/home',data2)
+app.use('/home',data3)
+
+
 
 app.get('/' ,(req,res)=>{
     res.write("hello");
