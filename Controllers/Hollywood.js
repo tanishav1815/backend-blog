@@ -1,4 +1,4 @@
-const Hollywood = (req,res)=>{
+const hollywood = (req,res)=>{
     res.send(
         [
             {
@@ -42,4 +42,4 @@ const Hollywood = (req,res)=>{
     )
 }
 
-module.exports.HollywoodData = Hollywood;
+module.exports.hollywoodData = hollywood;

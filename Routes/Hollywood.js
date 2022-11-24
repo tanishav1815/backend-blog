@@ -1,11 +1,11 @@
 const express= require('express');
 const app = express();
-const data3 = require("../Controllers/Hollywood");
+const data3 = require("../Controllers/hollywood");
 
 
 
 const data3Router = express.Router()
-data3Router.route('/Hollywood')
+data3Router.route('/hollywood')
 .get(data3.HollywoodData)
 
 module.exports=data3Router;
